@@ -1,0 +1,9 @@
+.text-nav{
+    border-bottom: 5px solid rgb(138, 130, 129);
+    color: rgb(138, 130, 129);
+}
+.text-nav:hover{
+    border-bottom: 5px solid rgb(233,80,45);
+    color: rgb(233,80,45);
+}
+
