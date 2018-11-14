@@ -7,3 +7,104 @@
     color: rgb(233,80,45);
 }
 
+.navbar{
+    border-bottom: 7px solid rgb(233, 80, 45);
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+
+.color-ayi{
+    color: rgb(233,80,45);
+}
+
+.color-plo{
+    color: rgb(141, 144, 146);
+}
+
+.bg-ayi{
+    background-color: rgb(233,80,45);
+}
+
+.box-control{
+    top: -24px;    
+}
+
+.vl {
+    border-left: 1px solid rgb(109, 109, 109);
+    height: 64px;
+}
+
+.borde-ayi{
+    border-bottom: 7px solid rgb(233, 80, 45);
+}
+
+.borde-plo{
+    border-bottom: 7px solid rgb(239, 239, 237);
+}
+
+.card{
+    border: 0px solid rgba(0,0,0,.125);
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: rgb(233, 80, 45);
+    border-color: rgb(233, 80, 45);
+}
+
+.btn-group-lg>.btn, .btn-lg{
+    padding: 0.50rem 10rem 0.50rem;
+    font-size: 3.5rem;
+    line-height: 1.5;   
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 0rem;
+}
+
+.tam-letra-1{
+    font-size: 2rem;
+    letter-spacing: normal;
+    line-height: 1;
+}
+
+.tam-letra-2{
+    font-size: 1.25rem;
+    letter-spacing: normal;
+    line-height: 1;
+}
+
+.social-1 [class*="fa fa-"]{
+    background-color: rgb(119, 116, 116);
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.social-2 [class*="fab fa-"]{
+    background-color: rgb(119, 116, 116);
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+[class*="fab fa-"]:hover{
+    background-color: rgb(233, 80, 45);
+}
+
+[class*="fa fa-"]:hover{
+    background-color: rgb(233, 80, 45);
+}
