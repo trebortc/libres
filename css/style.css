@@ -58,7 +58,19 @@
     border-color: rgb(233, 80, 45);
 }
 
-.btn-group-lg>.btn, .btn-lg{
+.btn-primary {
+    color: #fff;
+    background-color: rgb(174, 175, 168);
+    border-color: rgb(174, 175, 168);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(233, 80, 45);
+    border-color: rgb(233, 80, 45);
+}
+
+.btn-group-sm>.btn, .btn-sm{
     padding: 0.50rem 10rem 0.50rem;
     font-size: 3.5rem;
     line-height: 1.5;   
@@ -67,8 +79,21 @@
     border-top-left-radius: 0rem;
 }
 
+.btn-group-lg>.btn, .btn-lg{
+    padding: 0.50rem 3rem 0.50rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: 1rem;   
+}
+
 .tam-letra-1{
     font-size: 2rem;
+    letter-spacing: normal;
+    line-height: 1;
+}
+
+.tam-letra-4{
+    font-size: 1.25rem;
     letter-spacing: normal;
     line-height: 1;
 }
@@ -133,4 +158,8 @@ h1.tam-letra-3{
 
 hr{
     border-top: 5px solid  rgb(233, 80, 45);
+}
+
+.text-subrayado{
+    text-decoration: underline;
 }
